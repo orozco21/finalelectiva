@@ -1,0 +1,110 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.imagen {
+  height: 300px;
+  object-fit: cover;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  color: #fff;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  padding: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px;
+  margin-top: 60px;
+}
+
+section h1,
+section h2 {
+  text-align: center;
+}
+
+.GaleriaTienda {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  flex-wrap: nowrap; 
+}
+
+figure {
+  text-align: center;
+}
+
+figure img {
+  max-width: 50%;
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+  cursor: pointer;
+}
+.proyecto {
+  margin-bottom: 
+}
+
+.proyecto img {
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.proyecto p {
+  text-align: center;
+}
+#proyectos p {
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+.miembros {
+  display: flex;
+  justify-content: space-around; 
+  flex-wrap: wrap; 
+}
+
+.miembro {
+  margin: 10px; 
+}
+
+.miembro img {
+  border-radius: 50%; 
+  width: 150px; 
+  height: 150px; 
+  object-fit: cover;
+  margin-bottom: 10px; 
+}
+footer {
+  background-color: #c9c2c2;
+  padding: 20px;
+  text-align: center;
+}
